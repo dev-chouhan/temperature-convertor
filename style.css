@@ -1,16 +1,12 @@
 body {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(90deg, rgba(93, 99, 204, 1) 0%, rgba(245, 240, 242, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg,#071952 0%, #088395 100%, #35A29F 100%);
     font-family: monospace, sans-serif;
     color: #0d5370;
 }
 
 .container {
-    background: rgba(0, 212, 255, 0.3);
+    background: #F2F7A1;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -20,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 9.75% auto;
 }
 
 .heading {
@@ -34,7 +31,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 input {
@@ -42,14 +39,25 @@ input {
     font-family: monospace;
     padding: 5px;
     outline: none;
-    background: rgba(0, 212, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.6);
-    color: darkblue;
+    background: #57b0be;
+    border-color: #003239;
+    color: black;
     font-size: 18px;
 }
 
 input::placeholder {
-    color: crimson;
+    color: black;
+    filter: opacity(0.6);
+}
+
+footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Responsive CSS */
